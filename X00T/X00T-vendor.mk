@@ -1570,6 +1570,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-gt-prop.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
+    vendor/asus/X00T/proprietary/vendor/lib64/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-vndapis.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
@@ -1689,7 +1690,6 @@ PRODUCT_PACKAGES += \
     libantradio \
     vendor.qti.hardware.fm@1.0 \
     libgpustats \
-    libsdm-disp-vndapis \
     libthermalclient \
     libloc_api_v02 \
     libtime_genoff \
